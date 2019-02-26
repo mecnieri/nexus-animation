@@ -1,0 +1,42 @@
+@keyframes sqSpin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  29% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  40% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  41% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes prlSpin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0) skew(20deg);
+  }
+  59% {
+    -webkit-transform: rotate(0) skew(20deg);
+    transform: rotate(0) skew(20deg);
+  }
+  70% {
+    -webkit-transform: rotate(360deg) skew(20deg);
+    transform: rotate(360deg) skew(20deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg) skew(20deg);
+    transform: rotate(360deg) skew(20deg);
+  }
+}

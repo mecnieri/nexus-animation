@@ -1,0 +1,7 @@
+.square {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  animation: sqSpin 10s linear infinite;
+}
